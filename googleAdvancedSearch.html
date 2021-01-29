@@ -6,15 +6,27 @@
     </head>
     <body>
         <header>
-            <div class="headerLeft">Google Advanced Search</div>
             <div class="headerRight">
                 <a href="index.html">Back To Google Search</a>
             </div>
         </header>
-        <h1>Google Advanced Search</h1>
-        <form action="https://google.com/search">
-            <input type="text" name="q" id="searchBar">
-            <div class="searchButtonDiv"><input type="submit" value="Search" id="searchButton"></div>
+        <h1 id="advancedh1">Advanced Search</h1>
+        <p id="find1">Find pages with...</p>
+        <p id="todo1">To do this in the search box</p>
+        <form action="" class="advancedSearch">
+            <div class="advancedText">
+                <p>all these words:</p>
+                <p>this exact word or phrase:</p>
+                <p>any of these words:</p>
+                <p>none of these words:</p>
+            </div>
+            <div class="advancedBoxes">
+                <input type="text" id="advancedText">
+                <input type="text" id="advancedText">
+                <input type="text" id="advancedText">
+                <input type="text" id="advancedText">
+            </div>
+            <div class="searchButtonDiv" id="advancedSearchButton"><input type="submit" value="Advanced Search" id="advancedSearchButton1"></div>
         </form>
     </body>
 </html>

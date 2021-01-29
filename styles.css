@@ -6,40 +6,55 @@ h1 {
     text-align: center;
 }
 header {
-    background-color:cornsilk;
     padding: 20px 20px 35px 20px;
 }
 .headerRight {
     float: right;
-}
-.headerLeft {
-    float: left;
-    font-weight: bold;
-    margin: 0;
-    color: black;
 }
 header a {
     text-decoration: none;
     text-align: center;
     padding: 8px;
     border-radius: 2px;
-    background-color: black;
-    color: antiquewhite;
+    background-color: rgb(0, 76, 255);
+    color: rgb(255, 255, 255);
 }
 header a:hover {
     transition: 0.2s;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     color: black;
+}
+#GoogleLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    width: 300px;
+}
+.googleImages {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#googleImagesText {
+    font-size: 16px;
+    color: #4385f4;
+    margin: 0;
+    left: 110px;
+    position: relative;
+    bottom: 26px;
+    white-space: nowrap;
 }
 form {
     text-align: center;
 }
 #searchBar {
+    position: relative;
     padding: 7px 7px 7px 15px;
     margin: 5px 10px 20px;
     border: 2px solid grey;
     border-radius: 40px;
-    width: 30%;
+    width: 40%;
     box-sizing: border-box;
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -70,4 +85,62 @@ form {
 #searchButton:hover {
     transition: 0.4s;
     background-color: #bababa;
+}
+#advancedh1 {
+    text-align: left;
+    margin: 40px 0px 40px 50px;
+    color: red;
+    font-weight: 200;
+    font-size: 25px;
+}
+.advancedSearch {
+    text-align: left;
+    margin: 10px 0px 0px 30px;
+}
+#advancedText {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    display: block;
+    width: 40%;
+    margin: 30px 0px 0px 0px;
+}
+.advancedText {
+    float: left;
+}
+.advancedText p {
+    margin: 0px 0px 44px 0px;
+}
+.advancedBoxes {
+    text-align: center;
+    margin-left: 230px;
+    display: block;
+}
+#find1 {
+    margin-left: 30px;
+    display: inline;
+}
+#todo1 {
+    display: inline;
+    margin-left: 41%;
+}
+#advancedSearchButton {
+    margin: 40px 80px 0px 0px;
+}
+#advancedSearchButton1 {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px 7px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #006eff;
+}
+#advancedSearchButton1:hover {
+    transition: 0.2s;
+    background-color: #0045a0;
 }
